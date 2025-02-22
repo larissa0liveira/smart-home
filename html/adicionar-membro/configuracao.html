@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Configurações</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../css/app.css" />
+    <link rel="stylesheet" href="../../css/adicionar-membro/configuracao.css" />
+    <link rel="stylesheet" href="../../css/headerPadrao.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <a href="../home.html"><i id="voltar" style="font-size: 30px" class="fas botao">&#xf060;</i></a>
+        <h1>Configurações</h1>
+      </header>
+
+      <main>
+        <div class="item"><i class="fa-solid fa-user"></i>                    <p>Conta</p></div>
+        <div class="item"><i class="fa-solid fa-eye-slash"></i>               <p>Privacidade</p></div>
+        <div class="item"><i class="fa-solid fa-bell"></i>                    <p>Notificações</p></div>
+        <div class="item"><i class="fa-solid fa-shield-halved"></i>           <p>Segurança</p></div>
+        <hr>
+        <div id="menu-membros" class="item"><i class="fa-solid fa-user-group"></i> <p>Membros</p></div>
+        <div class="item"><i class="fa-solid fa-mobile"></i>                  <p>Dispositivos</p></div>
+        <div class="item"><i class="fa-solid fa-chart-line"></i>              <p>Estatística</p></div>
+        <hr>
+        <div class="item"><i class="fa-solid fa-question"></i>                <p>Ajuda</p></div>
+        <div class="item"><i class="fa-solid fa-universal-access"></i>        <p>Acessibilidade</p></div>
+        <div class="item"><i class="fa-solid fa-language"></i>                <p>Idioma</p></div>
+        <div class="item"><i class="fa-solid fa-circle-info"></i>             <p>Sobre</p></div>
+        <div class="item"><i class="fa-solid fa-arrow-right-from-bracket"></i><p>Terminar sessão</p></div>
+      </main>
+    </div>
+
+    <script>
+      $("#menu-membros").on("click", function(){
+        if(!localStorage.getItem("membro-adicionado"))
+          window.location.replace("membros.html");
+        else
+          window.location.replace("membro-adicionado.html");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adicionar acao</title>
+    <link rel="stylesheet" href="../../css/app.css" />
+    <link rel="stylesheet" href="../../css/assistente/criar-comando.css" />
+    <link rel="stylesheet" href="../../css/assistente/adicionar-acao.css" />
+    <link rel="stylesheet" href="../../css/headerPadrao.css">
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <a href="criar-comando.html"><i id="voltar" style="font-size: 30px" class="fas botao">&#xf060;</i></a>
+        <h1>Adicionar ações</h1>
+      </header>
+
+      <main>
+        <h3 id="info">Ações a serem realizadas neste comando</h3>
+
+        <div class="categoria">
+          <i style="font-size: 25px" class="fa-solid fa-comment-dots"></i>
+          <h3>Informação</h3>
+        </div>
+
+        <div class="acao-assistente">
+          <label for="acao1">Informar horas</label><br />
+          <input
+            type="checkbox"
+            id="acao1"
+            class="checkbox-acao"
+            name="horas"
+          />
+        </div>
+
+        <div class="acao-assistente">
+          <label for="acao2">Informar temperatura externa</label><br />
+          <input
+            type="checkbox"
+            id="acao2"
+            class="checkbox-acao"
+            name="horas"
+          />
+        </div>
+
+        <div class="acao-assistente">
+          <label for="acao3">Informar temperatura interna</label><br />
+          <input
+            type="checkbox"
+            id="acao3"
+            class="checkbox-acao"
+            name="horas"
+          />
+        </div>
+
+        <i
+          id="adicionar"
+          style="font-size: 30px"
+          class="fa-sharp fa-solid fa-circle-plus botao"
+        ></i>
+
+        <div class="categoria">
+          <i style="font-size: 25px" class="fa-solid fa-house"></i>
+          <h3>Casa</h3>
+        </div>
+
+        <div class="acao-assistente">
+          <label for="acao3">Ligar smart-tv</label><br />
+          <input
+            type="checkbox"
+            id="acao3"
+            class="checkbox-acao"
+            name="horas"
+          />
+        </div>
+
+        <div class="acao-assistente">
+          <label for="acao4">Ligar ar-condicionado</label><br />
+          <input
+            type="checkbox"
+            id="acao4"
+            class="checkbox-acao"
+            name="horas"
+          />
+        </div>
+
+        <div class="acao-assistente">
+          <label for="acao5">Abrir estores</label><br />
+          <input
+            type="checkbox"
+            id="acao5"
+            class="checkbox-acao"
+            name="horas"
+          />
+        </div>
+
+        <div class="acao-assistente">
+          <label for="acao6">Acender luz quarto principal</label><br />
+          <input
+            type="checkbox"
+            id="acao6"
+            class="checkbox-acao"
+            name="horas"
+          />
+        </div>
+
+        <i
+          id="adicionar"
+          style="font-size: 30px"
+          class="fa-sharp fa-solid fa-circle-plus botao"
+        ></i>
+
+        <div id="concluir">
+          <i class="fa-solid fa-check"></i>
+        </div>
+      </main>
+
+      <footer>
+        <a href="../home.html">
+          <div id="menu" class="footer-item botao">
+            <i style="font-size: 40px" class="fa-solid fa-bars"></i>
+            <h4>Menu</h4>
+          </div>
+        </a>
+
+        <div id="fav" class="footer-item botao">
+          <i style="font-size: 40px" class="fa-solid fa-star"></i>
+          <h4>Favoritos</h4>
+        </div>
+
+        <div id="config" class="footer-item botao">
+          <i style="font-size: 40px" class="fa-solid fa-gear"></i>
+          <h4>Configurações</h4>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="../../js/adicionar-acao.js"></script>
+  </body>
+</html>

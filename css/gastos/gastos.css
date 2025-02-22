@@ -1,0 +1,41 @@
+main h2 {
+    margin-left: 10px;
+    margin-top: 25px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+
+}
+
+#controlo {
+    margin-top: 25px;
+    margin-left: 350px;
+}
+
+.item {
+    display: flex;
+    position: relative;
+    width: 410px;
+    height: 80px;
+    border: 1px hidden black;
+    border-radius: 25px;
+    box-shadow: 0 0 3px black;
+    margin: 10px 10px;
+    color: rgb(4, 4, 4);
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(251, 251, 251);
+
+
+}
+
+.item:hover {
+    cursor: pointer;
+    background-color: rgb(220, 220, 220);
+    box-shadow: 0 0 15px black;
+}
+
+.categoria {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}

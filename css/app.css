@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+#app {
+    position: relative;
+    width: 450px;
+    height: 875px;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, rgba(177, 70, 206, 0.7), rgba(191, 104, 235, 0.4), rgba(138, 43, 226, 0.7));
+    overflow-y: auto;
+
+}
+
+.botao:hover {
+    cursor: pointer;
+    color: rgb(80, 80, 80);
+}
+
+::placeholder {
+    color: brown;
+}
+
+input[type=text] {
+    border-radius: 5px;
+}
+
+#aviso {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.885);
+    text-align: center;
+    position: absolute;
+    margin: auto auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 400px;
+    height: fit-content;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+#aviso h1 {
+    color: brown;
+}
+
+#aviso h2 {
+    margin: 20px 10px;
+}
+
+#aviso button {
+    background-color: rgb(170, 41, 41);
+    color: white;
+    font-weight: 900;
+    padding: 10px 15px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+}

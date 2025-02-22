@@ -1,0 +1,114 @@
+main h2{
+    margin: 20px 50px;
+    display: flex;
+    color: rgb(255, 246, 246);
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+header h1{
+    color: rgb(0, 0, 0);
+}
+#info{
+    font-style: italic;
+    margin: 0px 0px 50px 20px;
+    display: flex;
+    justify-content: center;
+    text-shadow: none;
+    color: black;
+}
+
+#repetir{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: auto auto;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background: url(https://cdn1.iconfinder.com/data/icons/arrows-vol-1-5/24/dropdown_arrow2-512.png) no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.dia-da-semana{
+    background-color: white;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: auto 5px;
+}
+
+.dia-da-semana:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px black;
+}
+
+.dia-da-semana h3{
+    margin: auto auto;
+    color: black;
+    text-shadow: none;
+}
+
+#horario input{
+    font-size: 20px;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgb(251, 251, 251);;
+}
+
+#drop-down-temp{
+    margin: 0px 5px 0px 50px;
+    font-size: 30px;
+    width: 200px;
+    height: 70px;
+}
+
+#temperatura{
+    display: flex;
+}
+
+#temperatura h1{
+    margin-left: 0px;
+}
+
+.bloco-escolha{
+    margin-bottom: 70px;
+}
+
+main select{
+    background-color: rgb(237, 237, 237);
+    border-radius: 20px;
+}
+
+#todos-os-dias{
+    display: flex;
+    position: relative;
+    margin: auto auto;
+    width: 79%;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px hidden black;
+    border-radius: 40px;
+    background-color: rgb(251, 251, 251);;
+}
+
+#todos-os-dias h3{
+    margin: auto 20px;
+    color: black;
+    text-shadow: none;
+}
+
+#todos-os-dias input{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: aqua;
+    top: 6px;
+    right: 20px;
+}

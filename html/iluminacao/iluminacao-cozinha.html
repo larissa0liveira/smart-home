@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iluminacao-Cozinha</title>
+    <link rel="stylesheet" href="../../css/app.css">
+    <link rel="stylesheet" href="../../css/iluminacao/iluminacao-cozinha.css">
+    <link rel="stylesheet" href="../../css/headerPadrao.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <a href="iluminacao-acesa.html"><i id="voltar" style="font-size: 30px" class="fas">&#xf060;</i></a>
+        <h1>Iluminação</h1>
+        <i id="logo" style="font-size: 50px" class="fa-solid fa-lightbulb"></i>
+      </header>
+
+      <main>
+        <h3 id="info">Ambiente: Cozinha</h3>
+
+        <div id="opcoes">
+          <div id="acender-todas">
+            <h2>Todas</h2>
+            <div id="toggle">
+              <p class="on-off">OFF</p>
+              <label class="switch">
+                <input id="toggle-checkbox" type="checkbox">
+                <span class="slider round"></span>
+              </label>
+              <p class="on-off">ON</p>
+            </div>
+          </div>
+          <div id="mais-opcoes">
+            <h2>+ Opções</h2>
+          </div>
+        </div>
+
+        <div id="slider">
+          <i id="sol1" class="fa-solid fa-sun" style="color: #000000; font-size: 20px;"></i>
+          <input id="slider-range" type="range" min="0" max="100" value="100" class="brightness-slider">
+          <i id="sol2" class="fa-solid fa-sun" style="color: #000000; font-size: 35px;"></i> 
+        </div>
+      </main>
+
+      <footer>
+        <a href="../home.html">
+          <div id="menu" class="footer-item botao">
+            <i style="font-size: 40px" class="fa-solid fa-bars"></i>
+            <h4>Menu</h4>
+          </div>
+        </a>
+
+        <div id="fav" class="footer-item botao">
+          <i style="font-size: 40px" class="fa-solid fa-star"></i>
+          <h4>Favoritos</h4>
+        </div>
+
+        <div id="config" class="footer-item botao">
+          <i style="font-size: 40px" class="fa-solid fa-gear"></i>
+          <h4>Configurações</h4>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="../../js/iluminacao-cozinha.js"></script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+#link-tarefas {
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    left: -350px;
+    top: 50%;
+}
+
+header h1 {
+    color: rgb(251, 251, 251);
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+#logo {
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+
+}
+
+header h3 {
+    margin-left: 50px;
+    color: rgb(251, 251, 251);
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+#loc h3 {
+    color: black;
+    text-shadow: none;
+    margin-left: 0;
+}
+
+.titulo-menu {
+    font-weight: 750;
+    padding: 0;
+    margin: 2px;
+
+}
+
+#link-tarefas:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#link-tarefas a {
+    margin: auto auto;
+}
+
+#ola {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 25px;
+}
+
+#loc {
+    display: flex;
+    border: 1px hidden black;
+    border-radius: 10px;
+    width: 80%;
+    height: 65px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgb(246, 248, 249);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+}
+
+#where {
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "iluminaçao rotina"
+        "virtual temp"
+        "tv camera";
+
+}
+
+#iluminaçao {
+    grid-area: iluminaçao;
+}
+
+#rotina {
+    grid-area: rotina;
+}
+
+#virtual {
+    grid-area: virtual;
+}
+
+#temp {
+    grid-area: temp;
+}
+
+#tv {
+    grid-area: tv;
+}
+
+#camera {
+    grid-area: camera;
+}
+
+.opcoes {
+    border: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgb(246, 248, 249);
+    opacity: 0.8;
+}
+
+.opcoes i {
+    margin: 35px auto 15px;
+}
+
+main div:hover {
+    opacity: 0.6;
+    transition: opacity 0.4s;
+    background-color: rgb(229, 233, 235);
+}
+
+main {
+    margin-bottom: 100px;
+}

@@ -1,0 +1,49 @@
+#info{
+    margin-left: 25px;
+    color:rgb(251, 251, 251) ;
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+.item{
+    display: flex;
+    border: 1px hidden black;
+    border-radius: 10px;
+    width: 90%;
+    height: 65px;
+    margin: 10px auto;
+    overflow: hidden;
+    background-color: rgb(251, 251, 251);
+}
+
+.item h2{
+    margin: auto 20px;
+}
+
+.item i{
+    justify-content: flex-end;
+    margin: auto 10px auto auto;
+}
+
+#adicionar{
+    display: flex;
+    width: fit-content;
+    justify-content: flex-end;
+    margin: 30px 40px auto auto;
+}
+
+header{
+    position: relative;
+}
+
+#help{
+    font-size: 40px;
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+}
+
+#voltar{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}

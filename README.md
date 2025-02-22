@@ -1,2 +1,3 @@
 # smart-home
-Simple Smart Home app interface prototype - Learning HTML/CSS/JS and human-computer interface principles
+Simple Smart Home app interface prototype  
+Human-Computer Interaction Class Project

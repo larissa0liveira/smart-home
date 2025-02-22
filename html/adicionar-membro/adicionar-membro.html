@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adicionar Membro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../css/app.css" />
+    <link rel="stylesheet" href="../../css/adicionar-membro/membro.css" />
+    <link rel="stylesheet" href="../../css/adicionar-membro/adicionar-membro.css">
+    <link rel="stylesheet" href="../../css/headerPadrao.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <i id="voltar" style="font-size: 30px" class="fas botao">&#xf060;</i>
+        <h1>Adicionar membro</h1>
+      </header>
+
+      <main>
+        <h3 id="nome-utilizador">Nome de Utilizador do novo membro:</h3>
+        <input id="input-texto" type="text" placeholder="*O nome de utilizador é obrigatório">
+
+        <div class="procurar-utilizador">
+            <h2>Procurar utilizador</h2>
+            <i id="icone-procurar" style="font-size: 25px" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div id="lari" class="membro">
+            <img src="../../imagens/larissa.jpg" alt="">
+            <h4>Larissa O.</h4>
+            <input type="checkbox">
+        </div>
+
+        <div class="concluir">
+            <i class="fa-solid fa-check"></i>
+        </div>
+
+        <div id="aviso1" class="aviso">
+            <h1>Aviso!</h1>
+            <h2>O campo do nome de utilizador deve ser preenchido para poder prosseguir.</h4>
+            <button onclick="closeWarning()">X</button>
+        </div>
+
+        <div id="aviso2" class="aviso">
+            <h1>Aviso!</h1>
+            <h2>Pelo menos um utilizador deve ser selecionado para poder prosseguir.</h4>
+            <button onclick="closeWarning()">X</button>
+        </div>
+      </main>
+    </div>
+    <script src="../../js/adicionar-membro.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+main{
+  position: relative;
+  margin: auto 30px;
+}
+main h3{
+  color:rgb(251, 251, 251);
+  text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+#acoes{
+  display: flex;
+  height: 50px;
+  width: 100%;
+  margin: 10px auto;
+  border: 1px hidden black;
+  border-radius: 30px;
+  background-color: rgb(251, 251, 251);;
+}
+
+#acoes h2{
+  margin: auto 10px;
+  font-size: 25px;
+}
+
+#add{
+  justify-content: flex-end;
+  margin: auto 10px auto auto;
+}
+
+main input[type="text"]{
+  display: flex;
+  font-size: 20px;
+  width: 97%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  background-color: rgb(251, 251, 251);
+}
+
+.acao-assistente{
+  width: 100%;
+  height: 50px;
+  border: 1px hidden black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+  background-color:rgb(251, 251, 251);
+}
+
+.acao-assistente label{
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.acao-assistente input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+#concluir{
+  display: flex;
+  border-radius: 10px;
+  border: 1px hidden black;
+  width: 120px;
+  height: 50px;
+  margin-left: auto;
+  margin-top: 40px;
+  background-color: rgb(251, 251, 251);;
+}
+
+#concluir i{
+  font-size: 35px;
+  margin: auto auto;
+}

@@ -1,0 +1,146 @@
+#app {
+    background: linear-gradient(to bottom, rgba(177, 70, 206, 0.7), rgba(191, 104, 235, 0.4), rgba(138, 43, 226, 0.7));
+    ;
+    /* Lilás para roxo com um pouco de branco */
+}
+
+#info1 {
+    margin-left: 25px;
+    color: rgb(251, 251, 251);
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+#info {
+
+    color: rgb(251, 251, 251);
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+#comodos {
+    display: flex;
+    position: relative;
+    width: 380px;
+    height: 150px;
+    border: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+    overflow: hidden;
+    color: rgb(251, 251, 251);
+    margin-left: 25px;
+    background-color: rgb(251, 251, 251);
+    opacity: 0.6;
+
+}
+
+#acesa {
+    display: flex;
+    margin-top: 113px;
+    position: absolute;
+
+}
+
+#comodos:hover {
+    opacity: 0.7;
+    transition: opacity 0.4s;
+    cursor: pointer;
+    color: white;
+
+}
+
+#comodos img {
+    height: 150px;
+    width: 380px;
+
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 150px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+
+}
+
+#main1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 220px;
+    bottom: 115px;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+.item img {
+    height: 100%;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+    overflow: hidden;
+    color: rgb(251, 251, 251);
+}
+
+.item h3 {
+    position: absolute;
+    bottom: 0;
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+#ambiente:hover {
+    opacity: 0.6;
+    transition: opacity 0.4s;
+    cursor: pointer;
+    color: white;
+}
+
+#naoha {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: rgb(122, 122, 122);
+}
+
+.menor {
+    margin-top: 22px;
+    margin-right: 8px;
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+.menor,
+.maior:hover {
+    cursor: pointer;
+
+}
+
+.maior {
+    margin-top: 22px;
+    margin-left: 8px;
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+.dia {
+    display: flex;
+    position: relative;
+    margin-left: 122px;
+}

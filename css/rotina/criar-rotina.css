@@ -1,0 +1,105 @@
+main{
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    top: 90px;
+    bottom: 115px;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+main h3{
+    margin-left: 40px;
+    color: rgb(251, 251, 251);
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+
+}
+
+#input-texto{
+    display: flex;
+    font-size: 20px;
+    width: 80%;
+    height: 30px;
+    margin: auto auto;
+    background-color: rgb(251, 251, 251);
+}
+
+#add-tarefa{
+    display: flex;
+    height: 50px;
+    width: 85%;
+    margin: 30px auto;
+    border: 1px hidden black;
+    border-radius: 30px;
+    background-color: rgb(251, 251, 251);
+}
+
+#add-tarefa h2{
+    margin: auto 10px;
+}
+
+#add{
+    justify-content: flex-end;
+    margin: auto 10px auto auto;
+    
+
+}
+
+#nenhuma-tarefa{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: rgb(122, 122, 122);
+}
+
+#concluir{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 280px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(251, 251, 251);
+}
+
+#concluir i{
+    font-size: 35px;
+    margin: auto auto;
+}
+
+.tarefa-rotina{
+    position: relative;
+    padding-top: 1px;
+    margin: 0px auto 15px auto;
+    width: 85%;
+    height: 68px;
+    border: 1px hidden black;
+    border-radius: 10px;
+    background-color:rgb(251, 251, 251); 
+    
+}
+
+.tarefa-rotina h3, .tarefa-rotina h4{
+    margin: 10px 10px;
+    text-shadow: none;
+    color: black;
+}
+
+#settings{
+    display: flex;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#settings i{
+    font-size: 25px;
+    margin: auto auto;
+}

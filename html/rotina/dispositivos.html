@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dispositivos</title>
+    <link rel="stylesheet" href="../../css/app.css" />
+    <link rel="stylesheet" href="../../css/rotina/criar-rotina.css" />
+    <link rel="stylesheet" href="../../css/rotina/dispositivos.css" />
+    <link rel="stylesheet" href="../../css/headerPadrao.css" />
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <a href="criar-rotina.html"
+          ><i id="voltar" style="font-size: 30px" class="fas botao"
+            >&#xf060;</i
+          ></a
+        >
+        <h1>Escolha o dispositivo</h1>
+      </header>
+
+      <main>
+        <div class="categoria2">
+          <i
+            id="t1"
+            style="font-size: 25px"
+            class="fa-solid fa-temperature-three-quarters"
+          ></i>
+          <h2>Temperatura</h2>
+        </div>
+        <div id="temperatura" class="categoria">
+          <a href="ac.html">
+            <div class="item botao">
+              <i
+                class="fa-regular fa-snowflake"
+                style="color: #000000; font-size: 40px; margin-top: 20px"
+              ></i>
+              <h5 id="temp">AC Quarto Principal</h5>
+            </div>
+          </a>
+          <div class="item botao">
+            <i
+              class="fa-regular fa-snowflake"
+              style="color: #000000; font-size: 40px; margin-top: 20px"
+            ></i>
+            <h5 id="temp">AC Sala</h5>
+          </div>
+          <div class="item botao">
+            <i
+              class="fa-solid fa-fire"
+              style="color: #000000; font-size: 40px; margin-top: 20px"
+            ></i>
+            <h5 id="temp">Esquentador casa-banho 1</h5>
+          </div>
+        </div>
+
+        <div class="categoria2">
+          <i id="t1" style="font-size: 25px" class="fa-solid fa-utensils"></i>
+          <h2>Alimentação</h2>
+        </div>
+        <div id="alimentacao" class="categoria">
+          <a href="cafe.html">
+            <div class="item botao">
+              <i
+                class="fa-solid fa-mug-saucer"
+                style="color: #000000; font-size: 40px; margin-top: 20px"
+              ></i>
+              <h5>Máquina de café</h5>
+            </div>
+          </a>
+          <div class="item botao">
+            <i
+              class="fa-solid fa-glass-water fa-lg"
+              style="color: #000000; font-size: 40px; margin-top: 40px"
+            ></i>
+            <h5>Máquina de sumo de laranja</h5>
+          </div>
+        </div>
+
+        <div class="categoria2">
+          <i
+            id="t1"
+            style="font-size: 25px"
+            class="fa-solid fa-hand-sparkles"
+          ></i>
+          <h2>Limpeza</h2>
+        </div>
+        <div id="limpeza" class="categoria">
+          <div class="item botao">
+            <i
+              class="fa-solid fa-shirt fa-lg"
+              style="color: #000000; font-size: 40px; margin-top: 40px"
+            ></i>
+            <h5>Máquina de lavar roupas</h5>
+          </div>
+          <a href="aspirador.html">
+            <div class="item botao">
+              <i
+                class="fa-brands fa-android fa-lg"
+                style="color: #000000; font-size: 40px; margin-top: 50px"
+              ></i>
+              <h5>Aspirador robô</h5>
+            </div>
+          </a>
+        </div>
+      </main>
+
+      <footer>
+        <a href="../home.html">
+          <div id="menu" class="footer-item botao">
+            <i style="font-size: 40px" class="fa-solid fa-bars"></i>
+            <h4>Menu</h4>
+          </div>
+        </a>
+
+        <div id="fav" class="footer-item botao">
+          <i style="font-size: 40px" class="fa-solid fa-star"></i>
+          <h4>Favoritos</h4>
+        </div>
+
+        <div id="config" class="footer-item botao">
+          <i style="font-size: 40px" class="fa-solid fa-gear"></i>
+          <h4>Configurações</h4>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

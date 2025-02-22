@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar-Rotina</title>
+    <link rel="stylesheet" href="../../css/app.css">
+    <link rel="stylesheet" href="../../css/rotina/criar-rotina.css">
+    <link rel="stylesheet" href="../../css/headerPadrao.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../../css/liberar-botao-confirmar.css">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <a href="aspirador.html"><i id="voltar" style="font-size: 30px" class="fas botao">&#xf060;</i></a>
+        <h1>Criar uma rotina</h1>
+      </header>
+
+      <main>
+        <h3>Nome da rotina:</h3>
+        <input id="input-texto" type="text" value="Trabalho">
+
+        <div id="add-tarefa">
+          <h2>Tarefas</h2>
+          <a id="add" href="dispositivos.html">
+            <i style="font-size: 35px" class="fa-solid fa-circle-plus botao"></i>
+          </a>
+        </div>
+
+        <div class="tarefa-rotina">
+          <h3>Iniciar máq. de café</h3>
+          <h4>7:30 - Seg | Ter | Qua | Qui | Sex</h4>
+          <div id="settings">
+            <i class="fa-solid fa-ellipsis-vertical botao"></i>
+          </div>
+        </div>
+
+        <div class="tarefa-rotina">
+          <h3>Iniciar aspirador robô</h3>
+          <h4>15:00 - Ter | Qui | Sáb</h4>
+          <div id="settings">
+            <i class="fa-solid fa-ellipsis-vertical botao"></i>
+          </div>
+        </div>
+
+        <div id="concluir">
+          <i class="fa-solid fa-check"></i>
+        </div>
+      </main>
+
+      <footer>
+        <a href="../home.html">
+          <div id="menu" class="footer-item botao">
+            <i style="font-size: 40px" class="fa-solid fa-bars"></i>
+            <h4>Menu</h4>
+          </div>
+        </a>
+
+        <div id="fav" class="footer-item botao">
+          <i style="font-size: 40px" class="fa-solid fa-star"></i>
+          <h4>Favoritos</h4>
+        </div>
+
+        <div id="config" class="footer-item botao">
+          <i style="font-size: 40px" class="fa-solid fa-gear"></i>
+          <h4>Configurações</h4>
+        </div>
+      </footer>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+main {
+  margin: auto 30px;
+}
+
+#info {
+  color: rgb(251, 251, 251);
+  text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+.categoria h3 {
+  display: inline-block;
+  margin: 25px auto auto 5px;
+}
+
+.item {
+  display: flex;
+  border: 1px hidden black;
+  border-radius: 10px;
+  width: 97%;
+  height: 50px;
+  margin: 10px 0;
+  padding-left: 10px;
+  overflow: hidden;
+  background-color: rgb(251, 251, 251);
+  box-shadow: 0 0 10px gray;
+}
+
+.item:hover {
+  cursor: pointer;
+  background-color: rgb(220, 220, 220);
+  box-shadow: 0 0 15px black;
+}
+
+#acoes {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  margin: 10px auto;
+  border: 2px dashed black;
+  border-radius: 30px;
+  margin-top: 40px;
+  background-color: rgb(251, 251, 251);
+  ;
+}
+
+#acoes h3 {
+  margin: auto 10px;
+}
+
+#add {
+  justify-content: flex-end;
+  margin: auto 10px auto auto;
+}
+
+#add:hover {
+  cursor: pointer;
+}

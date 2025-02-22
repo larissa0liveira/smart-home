@@ -1,0 +1,173 @@
+#info{
+    margin-left: 25px;
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+    color:rgb(246, 248, 249) ;
+}
+
+main div{
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+}
+
+#opcoes{
+    width: 90%;
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color:rgb(246, 248, 249); 
+}
+
+#acender-todas{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+#acender-todas h2{
+    margin: auto 15px;
+}
+
+#toggle{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    height: 45px;
+    position: absolute;
+    margin: auto auto;
+    right: 15px; top: 0; bottom: 0;
+    box-shadow: none;
+}
+
+.on-off{
+    text-shadow: 1px 1px 2px rgb(140, 140, 140);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-right: 7px;
+}
+
+#mais-opcoes{
+    display: flex;
+    position: relative;
+    height: 40%;
+}
+
+#mais-opcoes:hover{
+    cursor: pointer;
+}
+
+#mais-opcoes h2{
+    margin: auto 15px;
+}
+
+#slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 80px;
+    margin: 40px auto;
+    background-color: rgb(246, 248, 249); 
+    border-radius: 5px;
+}
+
+#slider-range{
+    height: 9px;
+    margin-bottom: 40px;
+}
+
+/* -------------------- SWITCH -------------------- */
+/* The switch - the box around the slider */
+.switch {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: auto auto;
+    left: 0; right: 0; top: 0; bottom: 0;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    box-shadow: 2px 2px 10px rgb(80, 80, 80);
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e10000;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: rgb(40, 242, 0);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.brightness-slider {
+    margin-top: 10px;
+    width: 250px; /* Largura do controle deslizante */
+    -webkit-appearance: none; /* Remove os estilos padrão do navegador */
+    appearance: none;
+    background-color: #5a007b77; /* Cor da linha */
+    border-radius: 10px; /* Borda arredondada */
+    height: 3px; /* Altura da linha */
+    outline: none; /* Remove o contorno padrão do navegador */
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-left: 8px;
+    position: relative; /* Adicionado para permitir que a bolinha seja posicionada corretamente */
+}
+ 
+.brightness-slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove os estilos padrão do navegador */
+    appearance: none;
+    width: 20px; /* Largura do "thumb" */
+    height: 20px; /* Altura do "thumb" */
+    border-radius: 50%; /* Forma circular */
+    background: #6700a7; /* Cor do "thumb" */
+    cursor: pointer; /* Cursor do mouse ao passar por cima */
+    position: relative; /* Posicionamento absoluto apenas para a bolinha */
+    top: 0px; /* Ajusta a posição vertical do "thumb" */
+}
